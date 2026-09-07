@@ -1,0 +1,40 @@
+h1.titel {
+    padding: 10px;
+    width: fit-content;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+h1.gerahmt {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    width: 20%;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 10%;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+}
+
+input[type="reset"]{
+    background-color: red;
+    color: white;
+}
+
+.meldung {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}

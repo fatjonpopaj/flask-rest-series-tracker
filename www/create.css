@@ -1,0 +1,37 @@
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    flex: 0 0 150px;
+    margin-right: 10px;
+}
+
+input[type="text"],input[type="number"] {
+    width: 20%;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+}
+
+input[type="reset"]{
+    background-color: red;
+    color: white;
+}
+
+button.exit {
+    background-color: yellow;
+    color: black;
+
+}
+
+h1.titel {
+    padding: 10px;
+    border: 2px solid black;
+    background-color: grey;
+}

@@ -1,0 +1,63 @@
+form.filter {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin: 2.5% 10%;
+    padding: 2.5% 10%;
+    border: 2px solid black;
+}
+b.filterGenre {
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+b.filterPlattfom {
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+b.filterTitel {
+    margin-right: 1%;
+}
+
+button.filtern {
+    margin-left: 5%;
+}
+
+button.logOut {
+    margin-left: 10%;
+}
+
+table.liste {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    padding: 2%;
+    border: 2px solid black;
+}
+table.liste tbody {
+    width: 100%;
+    display: table;
+}
+
+table.liste th {
+    background-color: darkgray;
+    
+}
+
+table.liste th:last-child {
+    background-color: transparent;
+}
+
+
+table.liste td {
+    text-align: left;
+    background-color: lightgray;
+}
+
+table.liste td:last-child {
+    text-align: center;
+    background-color: transparent;
+}
